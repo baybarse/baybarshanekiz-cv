@@ -1,0 +1,650 @@
+# jsonresume Ana Notları:
+
+* Ana Yapı:
+
+* Temel Link:
+https://registry.jsonresume.org/baybarse
+
+Editör'de Değişiklikler Yapılır: https://registry.jsonresume.org/editor
+Ardından Setting'de Gist ile eşlensin diye: https://registry.jsonresume.org/settings
+Üzerinde "Reconnect GitHub with Gist Access" butonuna tıklanır.
+
+Başka kişilerin gist'indeki jsonlar merak ediliyorsa: "https://gist.github.com/<username>" üzerinden görülebilir.
+
+---
+
+* Direkt Link Üzerinden Temalandırma:
+
+https://jsonresume.org/yourusername?theme=<TEMA Adı>
+
+
+  
+---
+
+* Kategori Sıralaması:
+
+** Kategorilerin isimleri Aşağıdaki Şekildedir:
+basics, skills, work, projects, volunteer, education, awards, certificates, publications, languages, interests, references
+
+** Sıralama Örneği:
+{
+  "meta": {
+    "theme": {
+      "sectionOrder": ["basics", "work", "skills", "education", "projects"]
+    }
+  }
+}
+
+
+## Notlar ve Linkler:
+
+---------
+
+# Syntax of the following document
+
+## Section Allocation Hierarchy:
+"---------": Level 1 Section Separator
+"-------": Level 1 Section Separator
+"-----": Level 3 Section Separator
+"---": Level 4 Section Separator
+
+-----
+
+## Key Notes:
+
+<...>: Variable Content
+[OP]: Optional
+
+-----
+
+##  Title Hierarchy:
+# <...>: 1. Başlık
+## <...>: 2. Başlık
+### <...>: 3. Başlık
+* <...>: 1. Alt Başlık/Madde
+** <...>: 2. Alt Başlık/Madde
+*** <...>: 3. Alt Başlık/Madde
+
+---------
+
+# Basic CV Structure:
+
+
+✅ basics - Personal information (name, email, summary)
+✅ certificates - Professional certifications
+✅ work - Work experience
+✅ education - Educational background
+✅ skills - Technical and professional skills
+✅ [OP]projects - Portfolio projects
+✅ languages - Spoken languages
+
+⚪ [OP]publications - Published works ()
+⚪ [OP]references - Professional references
+
+⚪ [OP]interests - Personal interests
+⚪ [OP]volunteer - Volunteer work
+⚪ [OP]awards - Awards and recognition
+
+-------
+
+# Detailed CV Structure:
+
+## Personal information:
+
+## Work experience
+
+### Work Name: 
+* "name": "<...>",
+* "location": "<...>",
+* "description": "<...>",
+* "position": "<...>",
+* [OP]"url": "<...>",
+* "startDate": "<...>",
+* "endDate": "<...>",
+* "summary": "<...>",
+* "highlights": 
+** "<...>",
+** "<...>",
+** "<...>",
+
+### Work Name:<...>
+<...>
+
+Educational background
+
+
+Technical and professional skills
+
+
+Portfolio projects
+
+
+Spoken languages
+
+
+⚪ publications - Published works
+
+
+⚪ references - Professional references
+
+⚪ interests - Personal interests
+⚪ volunteer - Volunteer work
+⚪ awards - Awards and recognition
+
+
+---------
+
+# CV Content: 
+
+## name: BAYBARSHAN EKİZ 
+## label: DevOps Engineer 
+## picture: https://i.postimg.cc/zvcr61VL/1747333549461.jpg
+
+### CONTACT INFORMATION:
+* Email: baybarshanekiz@gmail.com 
+* Phone: +90 (541) 270 77 51 
+* Location: Şehit Pilot Rasim İşeri Street, No:44, 34180, Bahçelievler, İstanbul, Türkiye 
+* Profiles:
+** LinkedIn: https://www.linkedin.com/in/baybarshan-ekiz
+** GitHub: https://github.com/baybarse
+** Medium: https://baybarshanekiz.medium.com/
+
+## SUMMARY:
+Kamu, finans, e-ticaret ve büyük ölçekli endüstri alanlarında faaliyet gösteren sektör lideri kurumlar için kritik DevOps süreçlerini tasarlayan ve yöneten, 7 yılı aşkın deneyime sahip uzman. Kubernetes (CKA sertifikalı) ve GitOps iş akışlarını kullanarak Azure, AWS, GCP, Huawei Cloud ve DigitalOcean gibi Hybrid ve Multi-Cloud ortamlarda ölçeklenebilir ve dayanıklı altyapı mimarileri oluşturmaktadır. Terraform, Ansible ve Helm kullanarak laC (Infrastructure as Code) uygulamaları ve CI/CD süreçleriyle operasyonel verimliliği artırmaktadır. Siber güvenlik alanındaki akademik geçmişiyle gizli yönetim ve trafik kontrol sistemlerini içeren DevSecOps stratejilerini başarıyla uygulamaktadır. 
+
+## WORK EXPERIENCE
+
+Huawei Turkey
+Position: DevOps Engineer | July 2025 - September 2025 
++1
+
+Huawei Cloud müşterilerine Huawei Cloud Container Engine desteği sağlandı. 
+
+Müşteriler için özel Kubernetes HPA metrikleri oluşturuldu; platform mühendisliği, GitOps, güvenlik bariyerleri ve SRE pratikleri uygulandı. 
+
+
+Highlights: Ollama (Deepseek) ve Openchat kullanılarak AI tabanlı geliştirmeler yapıldı. 
+
+Arçelik / Beko Yts
+Position: DevOps Engineer | October 2023 - June 2025 
++1
+
+Agile (Scrum/Kanban) yapısında farklı yazılım ekipleriyle sürekli iletişim halinde kalarak anlık DevOps ihtiyaçları karşılandı. 
++1
+
+Azure Cloud üzerinde Kubernetes kaynakları yönetildi ve sistem ihtiyaçlarına göre servis, deployment gibi nesnelerin yapılandırmaları düzenlendi. 
++2
+
+Grafana ve ELK Stack izleme araçları kullanılarak hatalar tespit edildi ve düzeltildi. 
++1
+
+
+Highlights: Dotnet, Java, Node.js ve Python projeleri için CI/CD (Azure DevOps, Jenkins, Sonarqube vb.) süreçleri desteklendi ve Dockerize işlemleri optimize edildi. DevSecOps kapsamında Sonarcloud sisteme entegre edilerek temiz kod pratikleri sağlandı. 
++2
+
+Türkiye Vakıfbank T.A.O
+Position: DevOps Engineer | September 2022 - October 2023 
++1
+
+Tamamen On-Prem tabanlı sistemde Ansible, Harbor, Helm, Azure DevOps, Kubernetes, Docker ve büyük ölçekli Openshift yapıları kullanıldı ve yönetildi. 
++4
+
+Vakıfpays, E-Fatura ve Makine Öğrenmesi (Jupiter) platformlarının sürekli hizmetinden sorumlu olundu ve DevOps süreçleri yürütüldü. 
++3
+
+ELK Stack ve Grafana üzerinden gelen alarmlara göre sorun giderme işlemleri yapıldı. 
++1
+
+
+Highlights: Kullanılan DevOps araçlarının .NET tabanlı API entegrasyonları sağlanarak sistem verimliliği artırıldı. 
++1
+
+Testinium
+Position: DevOps Engineer | January 2021 - September 2022 
++1
+
+Gittigidiyor, N11, Kariyer.net, ING Bank ve Erdemir dahil olmak üzere yaklaşık 30 müşterinin DevOps ve Agile dönüşüm süreçleri yönetildi. 
++1
+
+Şirket ürünleri Kubernetes, Docker Compose ve Openshift tabanlı kurulumlara uyumlu hale getirildi. 
++1
+
+Jenkins, GitLab, GitHub ve Azure DevOps kurulumları ile Sonarcloud CI/CD entegrasyonları sağlandı. 
++3
+
+
+Highlights: Ürünler için esnek Git Flow yapısı tasarlandı ve uygulandı. Yabancı müşteriler için müşteri başarı süreçleri yürütülerek şirketin yurtdışına açılması sağlandı. 
++3
+
+Hazine ve Maliye Bakanlığı (Ministry of Treasury and Finance)
+Position: DevOps Engineer | January 2020 - May 2021 
++1
+
+Tamamen On-Prem sistemlerde Kubernetes, Rancher, Grafana, Zabbix, Jenkins, Tomcat ve Nginx gibi teknolojiler yönetildi. 
++3
+
+SVN ve TFS tabanlı projelerin Git ortamına taşınması sağlandı ve GitLab tabanlı CI/CD kanalları oluşturuldu. 
++1
+
+Gelir İdaresi, Vergi Müfettişliği, Denetim ve Finans Sistemleri gibi tüm hazine birimlerinde hizmet verildi. 
++1
+
+
+Highlights: Yaklaşık 100 BT personeline kapsamlı Agile, Git ve DevOps kullanım eğitimleri verildi ve dokümante edildi. 
++1
+
+SAFRANTEK (ING Group)
+Position: DevOps Engineer | July 2018 - December 2019 
++1
+
+ING Group Türkiye iştiraki sigortacini.com'un B2B ve B2C platformlarının Azure Cloud ve Azure DevOps süreçleri yapılandırıldı. 
++1
+
+Sürüm (Release) ve Yapım (Build) pipeline'ları kuruldu, kaynak kod yapısı iş öğeleriyle entegre edildi. 
++1
+
+
+Highlights: Netsparker, Nessus, Burpsuite, Sonarcloud gibi araçlarla güvenlikle ilgili taramalar ve DevSecOps uygulamaları entegre edildi. 
++1
+
+INTERNSHIP EXPERIENCE
+Agile Response Technologies (Copenhagen, Denmark)
+Position: Software Engineering Intern | March 2018 - June 2018 
++2
+
+Bankalar için güvenlik yazılımları ve dosya sistemi analizi tabanlı C# geliştirmeleri yapıldı. 
++1
+
+Norwegian Information Security Lab - CCIS (Gjøvik, Norway)
+Position: Software Engineering Intern | June 2017 - September 2017 
++2
+
+Veri madenciliği algoritmaları entegre edildi ve davranışsal biyometri yöntemleri geliştirildi. 
++1
+
+RDC Partner (İstanbul, Turkey)
+Position: Software Engineering Intern | June 2016 - September 2016 
++1
+
+.NET tabanlı E-Ticaret portalı oluşturuldu, MSSQL veritabanı ve Web API (REST) tasarımları yapıldı. 
++2
+
+EDUCATION
+Altınbaş University
+Area: Computer Science
+Study Type: Doctorate (Dropping Out) | September 2022 - October 2024 
+
+Fırat University
+Area: Digital Forensic Engineering
+Study Type: Master's Degree | September 2018 - August 2022 
++2
+
+
+Thesis: Agility of DevSecOps processes: Dynamic log analysis approach. 
+
+Fırat University
+Area: Digital Forensic Engineering (Double Major)
+Study Type: Bachelor's Degree | February 2016 - August 2018 
++4
+
+
+GPA: 3.37/4 
++1
+
+Fırat University
+Area: Software Engineering
+Study Type: Bachelor's Degree | September 2013 - May 2018 
++2
+
+
+GPA: 3.31/4 
++1
+
+CERTIFICATIONS & AWARDS
+
+Certified Kubernetes Administrator (CKA) – April 2024, Linux Foundation (Credential ID: LF-0ld2qvsieo) 
++1
+
+SKILLS
+
+CI/CD & DevOps: GitLab, Jenkins, Azure DevOps, ArgoCD, Docker, Kubernetes, Helm. 
++1
+
+
+Cloud & Infrastructure (IaC): Azure, AWS, GCP, Huawei Cloud, DigitalOcean, Terraform, Ansible. 
++4
+
+
+Observability & Monitoring: Prometheus, Grafana, Zabbix, ELK Stack. 
++1
+
+
+Programming & Scripting: Bash, PowerShell, Python, C#, Java, Node.js, Go. 
++2
+
+
+Databases: PostgreSQL, MySQL, MSSQL, Redis, Kafka, RabbitMQ. 
++1
+
+
+Security & Practices: DevSecOps, SonarQube, Digital Forensics, IT Law, Agile Scrum. 
++1
+
+PROJECTS
+
+Arçelik DevOps Dönüşüm: Nisan 2024 
+
+
+Vakıfbank DevOps ve ItOps Dönüşüm Projesi: Haziran 2023 
+
+
+Testinium DevOps Dönüşüm ve Bulut Uyumluluk Projesi: Ağustos 2022 
+
+
+Erdemir & Multinet & Paycore DevOps Dönüşüm Projeleri: Nisan - Temmuz 2022 
++2
+
+LANGUAGES
+
+Turkish: Native 
+
+
+English: B2 (Independent user) 
++1
+
+
+Russian: Beginner
+
+
+
+
+
+
+
+-----------
+-----------
+-----------
+
+# Full Detailed Template:
+
+
+{
+  "basics": {
+    "name": "Richard Hendricks",
+    "label": "Software Engineer & Entrepreneur",
+    "image": "https://example.com/richard-hendricks.jpg",
+    "email": "richard@piedpiper.com",
+    "phone": "(555) 456-7890",
+    "url": "https://richardhendricks.com",
+    "summary": "Innovative software engineer with expertise in compression algorithms and distributed systems. Founder of Pied Piper, a revolutionary data compression platform. Passionate about creating technology that makes the world a better place.",
+    "location": {
+      "address": "5230 Newell Road",
+      "postalCode": "94303",
+      "city": "Palo Alto",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "rhendricks",
+        "url": "https://github.com/rhendricks"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "richardhendricks",
+        "url": "https://linkedin.com/in/richardhendricks"
+      },
+      {
+        "network": "Twitter",
+        "username": "rhendricks",
+        "url": "https://twitter.com/rhendricks"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Pied Piper",
+      "location": "Palo Alto, CA",
+      "description": "Revolutionary data compression platform",
+      "position": "Founder & CEO",
+      "url": "https://piedpiper.com",
+      "startDate": "2014-03-01",
+      "summary": "Founded and led Pied Piper, a groundbreaking compression technology company. Developed proprietary algorithms achieving unprecedented compression ratios. Raised $20M in funding and grew team to 50+ employees.",
+      "highlights": [
+        "Invented lossless compression algorithm with 5x better performance than competitors",
+        "Scaled platform to handle 1 billion+ requests per day",
+        "Built and managed engineering team of 25 developers",
+        "Achieved 99.99% uptime SLA for enterprise customers",
+        "Featured in TechCrunch, Wired, and The Wall Street Journal"
+      ]
+    },
+    {
+      "name": "Hooli",
+      "location": "Mountain View, CA",
+      "description": "Large technology corporation",
+      "position": "Senior Software Engineer",
+      "url": "https://hooli.com",
+      "startDate": "2012-01-01",
+      "endDate": "2014-02-28",
+      "summary": "Developed core infrastructure for Hooli's cloud platform. Led team of 5 engineers building distributed systems and APIs.",
+      "highlights": [
+        "Designed and implemented microservices architecture serving 100M+ users",
+        "Reduced API latency by 60% through optimization and caching strategies",
+        "Mentored junior engineers and conducted technical interviews",
+        "Contributed to open-source projects used company-wide"
+      ]
+    },
+    {
+      "name": "Startup Weekend",
+      "location": "Stanford, CA",
+      "position": "Software Developer (Intern)",
+      "startDate": "2011-06-01",
+      "endDate": "2011-08-31",
+      "summary": "Summer internship developing web applications and prototypes for various startup ideas.",
+      "highlights": [
+        "Built 3 full-stack web applications in 12 weeks",
+        "Won 'Best Technical Implementation' award at final demo day"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Code for America",
+      "position": "Volunteer Developer",
+      "url": "https://codeforamerica.org",
+      "startDate": "2015-01-01",
+      "summary": "Contributed to civic tech projects improving government services.",
+      "highlights": [
+        "Built web application for affordable housing search",
+        "Mentored high school students learning to code"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Stanford University",
+      "url": "https://stanford.edu",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2008-09-01",
+      "endDate": "2012-06-01",
+      "score": "3.8",
+      "courses": [
+        "CS106A - Programming Methodology",
+        "CS107 - Computer Organization & Systems",
+        "CS161 - Design and Analysis of Algorithms",
+        "CS221 - Artificial Intelligence"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "TechCrunch Disrupt Winner",
+      "date": "2014-09-10",
+      "awarder": "TechCrunch",
+      "summary": "Won TechCrunch Disrupt startup competition with Pied Piper compression platform"
+    },
+    {
+      "title": "Best Technical Implementation",
+      "date": "2011-08-15",
+      "awarder": "Stanford Startup Weekend",
+      "summary": "Awarded for exceptional technical execution during internship demo day"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "date": "2020-06-01",
+      "issuer": "Amazon Web Services",
+      "url": "https://aws.amazon.com/certification/"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Optimal Compression Algorithms for Large-Scale Data",
+      "publisher": "ACM Computing Surveys",
+      "releaseDate": "2015-03-01",
+      "url": "https://example.com/publication",
+      "summary": "Research paper on novel compression techniques achieving 5x better performance"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Expert",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Go",
+        "Java",
+        "C++"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Expert",
+      "keywords": [
+        "React",
+        "Node.js",
+        "Express",
+        "Next.js",
+        "GraphQL",
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "level": "Advanced",
+      "keywords": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Terraform",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Advanced",
+      "keywords": [
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "name": "Algorithms & Data Structures",
+      "level": "Expert",
+      "keywords": [
+        "Compression",
+        "Distributed Systems",
+        "Algorithm Design",
+        "Performance Optimization"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Mandarin Chinese",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Open Source",
+      "keywords": [
+        "Contributing to OSS",
+        "Building developer tools"
+      ]
+    },
+    {
+      "name": "Hackathons",
+      "keywords": [
+        "Organizing events",
+        "Mentoring participants"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "Richard is an exceptional engineer and leader. His technical skills are unmatched, and his vision for Pied Piper has been truly revolutionary."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pied Piper Compression Engine",
+      "description": "Open-source compression library used by Fortune 500 companies",
+      "highlights": [
+        "10,000+ GitHub stars",
+        "Used by Netflix, Uber, and Airbnb",
+        "Reduces bandwidth costs by 70% on average"
+      ],
+      "keywords": [
+        "Compression",
+        "Open Source",
+        "JavaScript"
+      ],
+      "startDate": "2014-03-01",
+      "url": "https://github.com/piedpiper/compression",
+      "roles": [
+        "Creator",
+        "Lead Developer"
+      ],
+      "entity": "Pied Piper",
+      "type": "application"
+    },
+    {
+      "name": "DevTools Pro",
+      "description": "Browser extension for advanced web development debugging",
+      "highlights": [
+        "50,000+ active users",
+        "4.8/5 star rating on Chrome Web Store"
+      ],
+      "keywords": [
+        "Browser Extension",
+        "Developer Tools"
+      ],
+      "startDate": "2016-01-01",
+      "endDate": "2018-06-01",
+      "url": "https://devtools-pro.com",
+      "roles": [
+        "Solo Developer"
+      ],
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/rhendricks/resume/main/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2024-01-15T00:00:00.000Z"
+  }
+}
