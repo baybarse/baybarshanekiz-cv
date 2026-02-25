@@ -13,4 +13,6 @@ git push -u origin main
 
 
 https://baybarse.github.io/baybarshanekiz-cv/
+
+
 https://baybarshanekiz-cv.netlify.app/
