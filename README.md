@@ -11,3 +11,6 @@ git push -u origin main
 [theme:stackoverflow]
 
 
+
+https://baybarse.github.io/baybarshanekiz-cv/
+https://baybarshanekiz-cv.netlify.app/
