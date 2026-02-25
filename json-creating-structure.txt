@@ -1,0 +1,127 @@
+# jsonresume için Kurulum 
+
+vs code açılır ve istenilen dizine girilir. Terminal açılır ve git bash açılır.
+Şuradaki Installation adımları izlenebilir: https://docs.jsonresume.org/cli
+
+
+Not: Dosyaların yollarında boşluklu dosyalar olmamalıdır.
+
+
+Yada adım adım şunlar yapılır:
+
+Ön gereksinimler:
+- Node kurulu olacak
+- Git kurulu olacak
+
+Json dosyası dizine eklenir veya düzenlenir.
+
+node --version
+# v18.0.0 or higher recommended
+
+npm install -g resume-cli
+resume init
+resume validate
+# stackoverflow için:
+
+npm install jsonresume-theme-stackoverflow 
+resume serve --theme stackoverflow
+
+# veya stackoverflow'dan farklı diğer template'ler: https://github.com/jsonresume/jsonresume.org?tab=readme-ov-file#themes
+
+
+
+jsonresume-theme'leri listelemek için:
+npm search jsonresume-theme
+
+Template'ler:
+
+jsonresume-theme-stackoverflow
+jsonresume-theme-modern
+jsonresume-theme-modern-extended
+jsonresume-theme-classy
+jsonresume-theme-straightforward
+jsonresume-theme-straightforward
+jsonresume-theme-sceptile
+jsonresume-theme-cora
+jsonresume-theme-streamline
+jsonresume-theme-waterfall
+jsonresume-theme-timeline-fixed
+jsonresume-theme-grande
+jsonresume-theme-msresume
+jsonresume-theme-printables
+jsonresume-theme-even
+jsonresume-theme-printclassy
+jsonresume-theme-lowmess
+jsonresume-theme-projects
+jsonresume-theme-elegant
+jsonresume-theme-simplyelegant
+jsonresume-theme-straightforward-fet-adapt
+
+
+İyiler:
+
+jsonresume-theme-stackoverflow
+jsonresume-theme-projects
+jsonresume-theme-simplyelegant
+
+
+----
+
+Meta Bölümünde Sections Sıralaması Örneği, Burada Hangi Sections Verilirse Site O Şekilde Olur:
+
+ "meta": {
+    "theme": {
+      "sectionOrder": [
+        "basics",
+        "work",
+        "skills",
+        "education",
+        "projects"
+      ]
+    }
+  }
+ 
+---
+Bölümler(Sections): 
+basics, work, education, skills, projects, volunteer, awards, certificates,  publications, languages, interests, references 
+----  
+
+
+
+
+
+----
+
+Sadece Static Sayfayı Deploy Yapılabilen Sistemler:
+
+- Github Pages
+- Netlify
+- Cloudflare
+
+-----
+
+
+Cloud Üzerinden ise:
+
+Direkt Link Üzerinden:
+
+https://jsonresume.org/yourusername?theme=<TEMA Adı>
+
+--
+
+
+** Json'a Ekleme:
+,
+  "meta": {
+    "theme": "even"
+  }
+  
+veya
+
+  "meta": {
+    "theme": {
+      "sectionOrder": [
+  "basics", "work", "education", "skills", "projects", "volunteer", "awards", "certificates",  "publications", "languages", "interests", "references"
+        ]
+    }
+  }
