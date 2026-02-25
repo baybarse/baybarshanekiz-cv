@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write # 403 HATASINI ÇÖZEN KISIM BURASI (read yerine write yaptık)
   pages: write
   id-token: write
 
@@ -31,19 +31,21 @@ jobs:
           # Commit mesajını al
           COMMIT_MSG="${{ github.event.head_commit.message }}"
           
-          # Varsayılan temayı belirle
-          THEME="stackoverflow" 
-          
-          # Commit mesajında özel bir tema etiketi var mı kontrol et
+          # Geçerli bir etiket var mı kontrol et, yoksa varsayılana dön
           if [[ "$COMMIT_MSG" == *"[theme:projects]"* ]]; then
             THEME="projects"
           elif [[ "$COMMIT_MSG" == *"[theme:simplyelegant]"* ]]; then
             THEME="simplyelegant"
           elif [[ "$COMMIT_MSG" == *"[theme:stackoverflow]"* ]]; then
             THEME="stackoverflow"
+          else
+            echo "Geçerli bir tema etiketi bulunamadı."
+            echo "Varsayılan olarak şu commit girilmiş gibi davranılıyor: 'Eğitim bilgileri güncellendi [theme:stackoverflow]'"
+            COMMIT_MSG="Eğitim bilgileri güncellendi [theme:stackoverflow]"
+            THEME="stackoverflow"
           fi
           
-          echo "Seçilen tema: $THEME"
+          echo "Kullanılacak tema: $THEME"
           # Sonraki adımlar için temayı çıktı olarak kaydet
           echo "theme=$THEME" >> $GITHUB_OUTPUT
 
@@ -68,7 +70,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        
+
       - name: Canlı Linki Repoya Yaz ve Commit At
         run: |
           # Linki bir dosyaya yazdır
@@ -83,4 +85,4 @@ jobs:
           git commit -m "docs: canlı yayın linki eklendi [skip ci]" || echo "Değişiklik yok, commit atlanıyor."
           
           # Repoya geri pushla
-          git push        
+          git push
