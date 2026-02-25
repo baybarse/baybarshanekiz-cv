@@ -1,290 +1,395 @@
 {
   "basics": {
     "name": "Baybarshan Ekiz",
-    "label": "Software Engineer & Entrepreneur",
-    "photo": "https://i.postimg.cc/zvcr61VL/1747333549461.jpg",
+    "label": "DevOps Engineer",
     "image": "https://i.postimg.cc/zvcr61VL/1747333549461.jpg",
-    "profile-pic": "https://i.postimg.cc/zvcr61VL/1747333549461.jpg",
-    "email": "richard@piedpiper.com",
-    "phone": "(555) 456-7890",
-    "url": "https://richardhendricks.com",
-    "summary": "aaaaaInnovative software engineer with expertise in compression algorithms and distributed systems. Founder of Pied Piper, a revolutionary data compression platform. Passionate about creating technology that makes the world a better place.",
+    "email": "baybarshanekiz@gmail.com",
+    "phone": "+90 541 270 77 51",
+    "url": "https://medium.com/@baybarshanekiz",
+    "summary": "7+ years of expertise in DevOps Engineering within high-compliance industries like Banking and Government. I architect scalable, resilient infrastructure using Kubernetes (CKA Certified) and GitOps workflows across Hybrid and Multi-Cloud landscapes (Azure, AWS, GCP, Huawei Cloud, Hetzner, DigitalOcean). Standardizing CI/CD pipelines and provisioning infrastructure as code using Terraform, Ansible, and Helm. Implementing robust DevSecOps strategies, secret management, and traffic control (NGINX/HAProxy) backed by an academic background in Cyber Security.",
     "location": {
-      "address": "5230 Newell Road",
-      "postalCode": "94303",
-      "city": "Palo Alto",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Sehit Pilot Rasim Iseri Street, No:44",
+      "postalCode": "34180",
+      "city": "Istanbul",
+      "countryCode": "TR",
+      "region": "Bahcelievler"
     },
     "profiles": [
       {
         "network": "GitHub",
-        "username": "rhendricks",
-        "url": "https://github.com/rhendricks"
+        "username": "baybarse",
+        "url": "https://github.com/baybarse"
       },
       {
         "network": "LinkedIn",
-        "username": "richardhendricks",
-        "url": "https://linkedin.com/in/richardhendricks"
+        "username": "baybarshan-ekiz",
+        "url": "https://www.linkedin.com/in/baybarshan-ekiz/"
       },
       {
-        "network": "Twitter",
-        "username": "rhendricks",
-        "url": "https://twitter.com/rhendricks"
+        "network": "Medium",
+        "username": "baybarshanekiz",
+        "url": "https://medium.com/@baybarshanekiz"
       }
     ]
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Revolutionary data compression platform",
-      "position": "Founder & CEO",
-      "url": "https://piedpiper.com",
-      "startDate": "2014-03-01",
-      "teamSize": 8,
-      "remoteWork": true,
-      "technologies": [
-        "React",
-        "Node.js"
-      ],
-      "summary": "Founded and led Pied Piper, a groundbreaking compression technology company. Developed proprietary algorithms achieving unprecedented compression ratios. Raised $20M in funding and grew team to 50+ employees.",
+      "name": "Huawei",
+      "location": "Istanbul, Turkey",
+      "description": "Technology Corporation",
+      "position": "DevOps Engineer",
+      "startDate": "2025-07-01",
+      "endDate": "2025-09-02",
+      "summary": "Provided support for Huawei Cloud Container Engine for customers. Implemented CCE/Kubernetes platform engineering, GitOps, observability, security guardrails, and SRE practices.",
       "highlights": [
-        "Invented lossless compression algorithm with 5x better performance than competitors",
-        "Scaled platform to handle 1 billion+ requests per day",
-        "Built and managed engineering team of 25 developers",
-        "Achieved 99.99% uptime SLA for enterprise customers",
-        "Featured in TechCrunch, Wired, and The Wall Street Journal"
+        "Created custom Kubernetes HPA metrics for customers.",
+        "Conducted AI-Based Development using Ollama (Deepseek) and Openchat.",
+        "Managed resource policies including requests/limits, PDBs, and QoS."
       ]
     },
     {
-      "name": "Hooli",
-      "location": "Mountain View, CA",
-      "description": "Large technology corporation",
-      "position": "Senior Software Engineer",
-      "url": "https://hooli.com",
-      "startDate": "2012-01-01",
-      "endDate": "2014-02-28",
-      "summary": "Developed core infrastructure for Hooli's cloud platform. Led team of 5 engineers building distributed systems and APIs.",
+      "name": "Arçelik",
+      "location": "Istanbul, Turkey",
+      "description": "Consumer Electronics",
+      "position": "DevOps Engineer",
+      "startDate": "2023-10-31",
+      "endDate": "2025-06-30",
+      "summary": "Managed CI/CD implementation, Kubernetes resources on Azure Cloud, and monitoring processes in an Agile/Scrum structure.",
       "highlights": [
-        "Designed and implemented microservices architecture serving 100M+ users",
-        "Reduced API latency by 60% through optimization and caching strategies",
-        "Mentored junior engineers and conducted technical interviews",
-        "Contributed to open-source projects used company-wide"
+        "Organized configurations of Kubernetes objects (service, deployment, pv, pvc) in accordance with system needs.",
+        "Supported CI/CD processes for .NET, Java, Node.js, and Python technologies with Pipeline Optimization and Dockerize operations.",
+        "Integrated Sonarcloud into the system for DevSecOps, ensuring clean code practices across team structures.",
+        "Managed Windows and Linux servers, installed agents, and utilized Powershell/Bash scripts.",
+        "Monitored tools like Grafana and ELK Stack, troubleshooting and correcting errors across Version Management, Back-end, Front-end, and Mobile environments."
       ]
     },
     {
-      "name": "Startup Weekend",
-      "location": "Stanford, CA",
-      "position": "Software Developer (Intern)",
-      "startDate": "2011-06-01",
-      "endDate": "2011-08-31",
-      "summary": "Summer internship developing web applications and prototypes for various startup ideas.",
+      "name": "Vakıfbank",
+      "location": "Istanbul, Turkey",
+      "description": "Financial Services",
+      "position": "DevOps Engineer",
+      "startDate": "2022-09-02",
+      "endDate": "2023-10-30",
+      "summary": "Managed completely on-prem based systems, coordinating large-scale Openshift structures, Azure DevOps, and CI/CD pipelines.",
       "highlights": [
-        "Built 3 full-stack web applications in 12 weeks",
-        "Won 'Best Technical Implementation' award at final demo day"
+        "Used Ansible, Harbor, Helm, Azure DevOps, Kubernetes, Docker, and ELK Stack technologies.",
+        "Responsible for DevOps processes and continuous service of Vakıfpays, Machine Learning, and E-Invoice platforms.",
+        "Moved Python-based machine learning-friendly Jupiter systems and carried out DevOps processes.",
+        "Contributed to DevOps processes by providing .NET based API Integrations of DevOps Tools to increase holistic system efficiency."
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "Code for America",
-      "position": "Volunteer Developer",
-      "url": "https://codeforamerica.org",
-      "startDate": "2015-01-01",
-      "summary": "Contributed to civic tech projects improving government services.",
+      "name": "Testinium",
+      "location": "Istanbul, Turkey",
+      "description": "Software Testing & DevOps Services",
+      "position": "DevOps Engineer",
+      "startDate": "2021-06-01",
+      "endDate": "2022-09-01",
+      "summary": "Conducted DevOps and Agile transformation processes for nearly 30 customers including Gittigidiyor, N11, Kariyer.net, and ING Bank.",
       "highlights": [
-        "Built web application for affordable housing search",
-        "Mentored high school students learning to code"
+        "Harmonized company products to enable Kubernetes, Docker Compose, and Openshift-based installations.",
+        "Provided Jenkins, GitLab, GitHub, and Azure DevOps installation and management support for clients.",
+        "Designed and implemented flexible and agile Git Flow structures for products.",
+        "Utilized AWS Cloud, Azure Cloud, Terraform, and Docker (DIND) Runner Executer for company products.",
+        "Provided Sonarcloud CI/CD integrations, gateway, and rule management."
+      ]
+    },
+    {
+      "name": "Ministry of Treasury and Finance",
+      "location": "Ankara, Turkey",
+      "description": "Government & Financial Services",
+      "position": "DevOps Engineer",
+      "startDate": "2020-01-01",
+      "endDate": "2021-05-31",
+      "summary": "Managed on-premise DevOps systems, CI/CD pipelines, and application monitoring for comprehensive treasury and finance units.",
+      "highlights": [
+        "Utilized Kubernetes, Rancher, Grafana, Zabbix, Jenkins, Tomcat, and Nginx.",
+        "Worked on CI/CD processes of Java, JavaScript, Python, .NET core, and .NET framework projects.",
+        "Managed and created GitLab based CI/CD pipelines, moving SVN and TFS based projects to Git environment.",
+        "Monitored resource usage (CPU, memory, disk) with Zabbix and application alarms via Grafana.",
+        "Delivered detailed Agile, Git, and DevOps training to approximately 100 IT personnel."
+      ]
+    },
+    {
+      "name": "Safrantek (ING Group)",
+      "location": "Istanbul, Turkey",
+      "description": "Technology Services",
+      "position": "DevOps Engineer",
+      "startDate": "2018-07-01",
+      "endDate": "2019-12-31",
+      "summary": "Realized the cloud and DevOps processes for the B2B and B2C platforms of sigortacini.com, the Turkish subsidiary of ING Group.",
+      "highlights": [
+        "Configured Release and Build Pipelines, integrating Source Code structure and Work Items with Azure DevOps.",
+        "Managed Azure Cloud services including Virtual Machine, Blob Storage, Cosmos DB, Service Bus, and Virtual Network.",
+        "Implemented security-related studies and scans using Key-vault, Netsparker, Nessus, Burpsuite, Fortify, and Sonarcloud."
+      ]
+    },
+    {
+      "name": "Agile Response Technologies",
+      "location": "Copenhagen, Denmark",
+      "position": "Software Engineering Intern",
+      "startDate": "2018-01-01",
+      "endDate": "2018-06-15",
+      "summary": "Developed security software written for banks.",
+      "highlights": [
+        "Performed file system analysis and digital forensic investigation.",
+        "Developed C# based technologies."
+      ]
+    },
+    {
+      "name": "Norway Center for Cyber and Information Security (CCIS)",
+      "location": "Gjovik, Norway",
+      "position": "Software Engineering Intern",
+      "startDate": "2017-06-01",
+      "endDate": "2017-09-15",
+      "summary": "Researched and applied data mining and numeric process techniques in cybersecurity.",
+      "highlights": [
+        "Examined and applied data mining techniques in the system dataset technologies.",
+        "Developed numeric process techniques."
+      ]
+    },
+    {
+      "name": "RDC Partner",
+      "location": "Istanbul, Turkey",
+      "position": "Software Engineering Intern",
+      "startDate": "2016-06-15",
+      "endDate": "2016-09-15",
+      "summary": "Contributed to .NET based E-Commerce platform development.",
+      "highlights": [
+        "Created E-Commerce Platform and Admin Page using .NET based technology.",
+        "Prepared an appropriate database system for the ORM structure.",
+        "Adapted update, insert, and delete operations to the whole system through LINQ queries and coded Web APIs."
       ]
     }
   ],
   "education": [
     {
-      "institution": "Stanford University",
-      "url": "https://stanford.edu",
+      "institution": "Altınbaş University",
+      "location": "Istanbul, Turkey",
       "area": "Computer Science",
-      "studyType": "Bachelor of Science",
-      "startDate": "2008-09-01",
-      "endDate": "2012-06-01",
-      "score": "3.8",
-      "courses": [
-        "CS106A - Programming Methodology",
-        "CS107 - Computer Organization & Systems",
-        "CS161 - Design and Analysis of Algorithms",
-        "CS221 - Artificial Intelligence"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "TechCrunch Disrupt Winner",
-      "date": "2014-09-10",
-      "awarder": "TechCrunch",
-      "summary": "Won TechCrunch Disrupt startup competition with Pied Piper compression platform"
+      "studyType": "Doctorate (Dropping Out)",
+      "startDate": "2022-09-01",
+      "endDate": "2024-10-30"
     },
     {
-      "title": "Best Technical Implementation",
-      "date": "2011-08-15",
-      "awarder": "Stanford Startup Weekend",
-      "summary": "Awarded for exceptional technical execution during internship demo day"
+      "institution": "Fırat University",
+      "location": "Elazığ, Turkey",
+      "area": "Digital Forensic Engineering",
+      "studyType": "Master's Degree",
+      "startDate": "2018-09-15",
+      "endDate": "2021-09-15",
+      "courses": [
+        "Thesis: Agility of DevSecOps processes: Dynamic log analysis approach"
+      ]
+    },
+    {
+      "institution": "Fırat University",
+      "location": "Elazığ, Turkey",
+      "area": "Digital Forensic Engineering",
+      "studyType": "Double Major Degree",
+      "startDate": "2016-02-15",
+      "endDate": "2018-06-15",
+      "score": "3.37/4"
+    },
+    {
+      "institution": "Fırat University",
+      "location": "Elazığ, Turkey",
+      "area": "Software Engineering",
+      "studyType": "Bachelor Degree",
+      "startDate": "2013-09-15",
+      "endDate": "2018-06-15",
+      "score": "3.31/4"
+    },
+    {
+      "institution": "Erkan Avcı Technical Highschool",
+      "location": "Istanbul, Turkey",
+      "area": "Web Programming",
+      "studyType": "Highschool Diploma",
+      "startDate": "2009-09-15",
+      "endDate": "2013-06-15"
     }
   ],
   "certificates": [
     {
-      "name": "AWS Certified Solutions Architect",
-      "date": "2020-06-01",
-      "issuer": "Amazon Web Services",
-      "url": "https://aws.amazon.com/certification/"
+      "name": "Certified Kubernetes Administrator (CKA)",
+      "date": "2024-04-01",
+      "issuer": "Linux Foundation",
+      "url": "Credential ID LF-0ld2qvsieo"
     }
   ],
   "publications": [
     {
-      "name": "Optimal Compression Algorithms for Large-Scale Data",
-      "publisher": "ACM Computing Surveys",
-      "releaseDate": "2015-03-01",
-      "url": "https://example.com/publication",
-      "summary": "Research paper on novel compression techniques achieving 5x better performance"
+      "name": "Agility of DevSecOps processes: Dynamic log analysis approach",
+      "publisher": "Fırat University",
+      "releaseDate": "2021-09-15",
+      "url": "https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77LTu3gqJbOJBrbUkwHalaNke6EXIO1Is42QWO4hfBrdOb",
+      "summary": "Master's Thesis focusing on dynamic log analysis within DevSecOps."
     }
   ],
   "skills": [
     {
-      "name": "Programming Languages",
+      "name": "CI/CD & DevOps",
       "keywords": [
-        "JavaScript",
-        "TypeScript",
-        "Python",
-        "Go",
-        "Java",
-        "C++"
-      ]
-    },
-    {
-      "name": "Web Development",
-      "level": "Expert",
-      "keywords": [
-        "React",
-        "Node.js",
-        "Express",
-        "Next.js",
-        "GraphQL",
-        "REST APIs"
-      ]
-    },
-    {
-      "name": "Cloud & DevOps",
-      "level": "Advanced",
-      "keywords": [
-        "AWS",
+        "GitLab",
+        "Jenkins",
+        "Azure DevOps",
+        "ArgoCD",
         "Docker",
         "Kubernetes",
-        "CI/CD",
-        "Terraform",
+        "Helm",
         "GitHub Actions"
       ]
     },
     {
-      "name": "Databases",
-      "level": "Advanced",
+      "name": "Cloud & Infrastructure (IaC)",
+      "keywords": [
+        "Azure",
+        "AWS",
+        "GCP",
+        "Huawei Cloud",
+        "DigitalOcean",
+        "Terraform",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Observability & Monitoring",
+      "keywords": [
+        "Prometheus",
+        "Grafana",
+        "Zabbix",
+        "ELK Stack"
+      ]
+    },
+    {
+      "name": "Programming Languages & Scripting",
+      "keywords": [
+        "Bash Script",
+        "Python",
+        "C#",
+        "Java",
+        "Node.js",
+        "Go",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Databases & Messaging",
       "keywords": [
         "PostgreSQL",
-        "MongoDB",
+        "MySQL",
+        "MSSQL",
         "Redis",
-        "Elasticsearch"
+        "Kafka",
+        "RabbitMQ"
       ]
     },
     {
-      "name": "Algorithms & Data Structures",
-      "level": "Expert",
+      "name": "Security & Practices",
       "keywords": [
-        "Compression",
-        "Distributed Systems",
-        "Algorithm Design",
-        "Performance Optimization"
+        "DevSecOps",
+        "SonarQube",
+        "Digital Forensics",
+        "IT Law",
+        "Agile Scrum"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Mandarin Chinese",
-      "fluency": "Conversational"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Open Source",
-      "keywords": [
-        "Contributing to OSS",
-        "Building developer tools"
-      ]
-    },
-    {
-      "name": "Hackathons",
-      "keywords": [
-        "Organizing events",
-        "Mentoring participants"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "Richard is an exceptional engineer and leader. His technical skills are unmatched, and his vision for Pied Piper has been truly revolutionary."
     }
   ],
   "projects": [
     {
-      "name": "Pied Piper Compression Engine",
-      "description": "Open-source compression library used by Fortune 500 companies",
-      "highlights": [
-        "10,000+ GitHub stars",
-        "Used by Netflix, Uber, and Airbnb",
-        "Reduces bandwidth costs by 70% on average"
-      ],
-      "keywords": [
-        "Compression",
-        "Open Source",
-        "JavaScript"
-      ],
-      "startDate": "2014-03-01",
-      "url": "https://github.com/piedpiper/compression",
-      "roles": [
-        "Creator",
-        "Lead Developer"
-      ],
-      "entity": "Pied Piper",
-      "type": "application"
+      "name": "Arçelik DevOps Transformation",
+      "description": "DevOps processes of projects developed within Arçelik were designed and implemented. Compliance and transformation were ensured.",
+      "startDate": "2024-04-01"
     },
     {
-      "name": "DevTools Pro",
-      "description": "Browser extension for advanced web development debugging",
-      "highlights": [
-        "50,000+ active users",
-        "4.8/5 star rating on Chrome Web Store"
-      ],
-      "keywords": [
-        "Browser Extension",
-        "Developer Tools"
-      ],
-      "startDate": "2016-01-01",
-      "endDate": "2018-06-01",
-      "url": "https://devtools-pro.com",
-      "roles": [
-        "Solo Developer"
-      ],
-      "type": "application"
+      "name": "Vakıfbank DevOps and ItOps Transformation",
+      "description": "Restructured Vakıfbank's software development and operational processes.",
+      "startDate": "2023-06-01"
+    },
+    {
+      "name": "Testinium DevOps Transformation and Cloud Compliance",
+      "description": "Optimized Testinium's software development processes using DevOps methodologies.",
+      "startDate": "2022-08-01"
+    },
+    {
+      "name": "Erdemir DevOps Transformation",
+      "description": "Accelerated software development cycles by restructuring Erdemir's IT processes.",
+      "startDate": "2022-07-01"
+    },
+    {
+      "name": "Multinet DevOps Transformation",
+      "description": "Increased operational efficiency by optimizing Multinet's software development processes.",
+      "startDate": "2022-05-01"
+    },
+    {
+      "name": "Paycore DevOps Transformation",
+      "description": "Optimized software development and deployment processes using DevOps methodologies.",
+      "startDate": "2022-04-01"
+    },
+    {
+      "name": "Ministry of Treasury and Finance DevOps Transformation",
+      "description": "Optimized software development processes within the Ministry using modern DevOps methodologies.",
+      "startDate": "2020-06-01"
+    },
+    {
+      "name": "Ofix DevOps, KVKK and Azure Cloud Transformation",
+      "description": "Made Ofix's IT infrastructure more flexible, secure, and scalable.",
+      "startDate": "2019-08-01"
+    },
+    {
+      "name": "Bilyoner Openshift to Amazon Cloud Transformation",
+      "description": "Moved high-traffic platform to AWS cloud ensuring performance and reliability.",
+      "startDate": "2019-01-01"
+    },
+    {
+      "name": "Blockchain Based Blacklist System for All Telecom Operators in Turkey",
+      "description": "Design and development for a shared Blacklist using blockchain infrastructure alongside EY, Turkcell, Vodafone, and Safrantek personnel.",
+      "startDate": "2018-11-01"
+    },
+    {
+      "name": "Empty Parking Space Guidance System for Vehicles",
+      "description": "Designed and developed an integrated system for smart city open/closed parking via image processing and AI. Documented according to TUBITAK standards.",
+      "startDate": "2018-06-01"
     }
   ],
-    "meta": {
+  "languages": [
+    {
+      "language": "Turkish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "B2 - Independent user"
+    }
+  ],
+  "references": [
+    {
+      "name": "Mehmet Akşahin",
+      "reference": "Software Manager at Testinium."
+    },
+    {
+      "name": "Efe Umut Selçuk",
+      "reference": "DevOps Team Lead at Arçelik."
+    },
+    {
+      "name": "Ömer Fatih İlhan",
+      "reference": "Software Manager at Ministry of Treasury and Finance."
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
     "theme": {
       "sectionOrder": [
-  "basics", "work", "education", "skills", "projects", "volunteer", "awards", "certificates",  "publications", "languages", "interests", "references"
-        ]
+        "basics",
+        "work",
+        "education",
+        "skills",
+        "certificates",
+        "languages",
+        "publications",
+        "projects",
+        "references"
+      ]
     }
   }
-  
 }
