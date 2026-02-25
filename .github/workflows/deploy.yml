@@ -68,3 +68,19 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        
+      - name: Canlı Linki Repoya Yaz ve Commit At
+        run: |
+          # Linki bir dosyaya yazdır
+          echo "Sitenin Canlı Linki: ${{ steps.deployment.outputs.page_url }}" > deployed-link.txt
+          
+          # Git ayarlarını bir bot adına yapılandır
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Dosyayı ekle ve commit at (Sonsuz döngüyü kırmak için [skip ci] çok önemli!)
+          git add deployed-link.txt
+          git commit -m "docs: canlı yayın linki eklendi [skip ci]" || echo "Değişiklik yok, commit atlanıyor."
+          
+          # Repoya geri pushla
+          git push        
