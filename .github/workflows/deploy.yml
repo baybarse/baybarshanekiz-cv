@@ -1,0 +1,70 @@
+name: Deploy Dynamic Theme CV
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Dinamik Temayı Belirle
+        id: theme-selector
+        run: |
+          # Commit mesajını al
+          COMMIT_MSG="${{ github.event.head_commit.message }}"
+          
+          # Varsayılan temayı belirle
+          THEME="stackoverflow" 
+          
+          # Commit mesajında özel bir tema etiketi var mı kontrol et
+          if [[ "$COMMIT_MSG" == *"[theme:projects]"* ]]; then
+            THEME="projects"
+          elif [[ "$COMMIT_MSG" == *"[theme:simplyelegant]"* ]]; then
+            THEME="simplyelegant"
+          elif [[ "$COMMIT_MSG" == *"[theme:stackoverflow]"* ]]; then
+            THEME="stackoverflow"
+          fi
+          
+          echo "Seçilen tema: $THEME"
+          # Sonraki adımlar için temayı çıktı olarak kaydet
+          echo "theme=$THEME" >> $GITHUB_OUTPUT
+
+      - name: Bağımlılıkları ve Temayı Kur
+        run: |
+          npm install -g resume-cli
+          npm install jsonresume-theme-${{ steps.theme-selector.outputs.theme }}
+
+      - name: CV'yi HTML Olarak Dışa Aktar (Build)
+        run: |
+          mkdir -p public
+          resume export public/index.html --theme ${{ steps.theme-selector.outputs.theme }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './public'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
