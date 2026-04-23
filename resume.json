@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Baybarshan Ekizz",
+    "name": "Baybarshan Ekiz",
     "label": "DevOps Engineer",
     "image": "https://i.postimg.cc/zvcr61VL/1747333549461.jpg",
     "email": "baybarshanekiz@gmail.com",
@@ -34,15 +34,14 @@
   },
   "work": [
     {
-      "name": "Huawei",
+      "name": "Turkuvaz Grup",
       "location": "Istanbul, Turkey",
       "description": "Technology Corporation",
       "position": "DevOps Engineer",
-      "startDate": "2025-07-01",
-      "endDate": "2025-09-02",
-      "summary": "Provided support for Huawei Cloud Container Engine for customers. Implemented CCE/Kubernetes platform engineering, GitOps, observability, security guardrails, and SRE practices.",
+      "startDate": "2026-04-01",
+      "endDate": "2026-04-15",
+      "summary": "Implemented Kubernetes platform engineering, GitOps, observability, security guardrails, and SRE practices.",
       "highlights": [
-        "Created custom Kubernetes HPA metrics for customers.",
         "Conducted AI-Based Development using Ollama (Deepseek) and Openchat.",
         "Managed resource policies including requests/limits, PDBs, and QoS."
       ]
@@ -52,29 +51,16 @@
       "location": "Istanbul, Turkey",
       "description": "Consumer Electronics",
       "position": "DevOps Engineer",
-      "startDate": "2023-10-31",
-      "endDate": "2025-06-30",
+      "startDate": "2024-08-01",
+      "endDate": "2026-03-27",
       "summary": "Managed CI/CD implementation, Kubernetes resources on Azure Cloud, and monitoring processes in an Agile/Scrum structure.",
       "highlights": [
         "Organized configurations of Kubernetes objects (service, deployment, pv, pvc) in accordance with system needs.",
         "Supported CI/CD processes for .NET, Java, Node.js, and Python technologies with Pipeline Optimization and Dockerize operations.",
         "Integrated Sonarcloud into the system for DevSecOps, ensuring clean code practices across team structures.",
         "Managed Windows and Linux servers, installed agents, and utilized Powershell/Bash scripts.",
-        "Monitored tools like Grafana and ELK Stack, troubleshooting and correcting errors across Version Management, Back-end, Front-end, and Mobile environments."
-      ]
-    },
-    {
-      "name": "Vakıfbank",
-      "location": "Istanbul, Turkey",
-      "description": "Financial Services",
-      "position": "DevOps Engineer",
-      "startDate": "2022-09-02",
-      "endDate": "2023-10-30",
-      "summary": "Managed completely on-prem based systems, coordinating large-scale Openshift structures, Azure DevOps, and CI/CD pipelines.",
-      "highlights": [
+        "Monitored tools like Grafana and ELK Stack, troubleshooting and correcting errors across Version Management, Back-end, Front-end, and Mobile environments.",
         "Used Ansible, Harbor, Helm, Azure DevOps, Kubernetes, Docker, and ELK Stack technologies.",
-        "Responsible for DevOps processes and continuous service of Vakıfpays, Machine Learning, and E-Invoice platforms.",
-        "Moved Python-based machine learning-friendly Jupiter systems and carried out DevOps processes.",
         "Contributed to DevOps processes by providing .NET based API Integrations of DevOps Tools to increase holistic system efficiency."
       ]
     },
@@ -83,8 +69,8 @@
       "location": "Istanbul, Turkey",
       "description": "Software Testing & DevOps Services",
       "position": "DevOps Engineer",
-      "startDate": "2021-06-01",
-      "endDate": "2022-09-01",
+      "startDate": "2022-05-02",
+      "endDate": "2024-07-26",
       "summary": "Conducted DevOps and Agile transformation processes for nearly 30 customers including Gittigidiyor, N11, Kariyer.net, and ING Bank.",
       "highlights": [
         "Harmonized company products to enable Kubernetes, Docker Compose, and Openshift-based installations.",
@@ -99,8 +85,8 @@
       "location": "Ankara, Turkey",
       "description": "Government & Financial Services",
       "position": "DevOps Engineer",
-      "startDate": "2020-01-01",
-      "endDate": "2021-05-31",
+      "startDate": "2020-02-03",
+      "endDate": "2022-04-27",
       "summary": "Managed on-premise DevOps systems, CI/CD pipelines, and application monitoring for comprehensive treasury and finance units.",
       "highlights": [
         "Utilized Kubernetes, Rancher, Grafana, Zabbix, Jenkins, Tomcat, and Nginx.",
@@ -111,12 +97,12 @@
       ]
     },
     {
-      "name": "Safrantek (ING Group)",
+      "name": "ING Group (Safrantek)",
       "location": "Istanbul, Turkey",
       "description": "Technology Services",
       "position": "DevOps Engineer",
       "startDate": "2018-07-01",
-      "endDate": "2019-12-31",
+      "endDate": "2020-01-31",
       "summary": "Realized the cloud and DevOps processes for the B2B and B2C platforms of sigortacini.com, the Turkish subsidiary of ING Group.",
       "highlights": [
         "Configured Release and Build Pipelines, integrating Source Code structure and Work Items with Azure DevOps.",
